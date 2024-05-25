@@ -12,3 +12,4 @@ pytz
 aiohttp
 openai
 psutil==5.9.4
+yt-dlp
