@@ -23,14 +23,14 @@ class script(object):
  
 
 
-    ABOUT_TXT = """<b>⎊ 𝖬𝗒 𝖭𝖺𝗆𝖾: {}
-⎊ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/animegural'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
-⎊ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥 
-⎊ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆 𝖺𝗌𝗒𝗇𝖼𝗂𝗈 𝟢.𝟣𝟩.𝟣 
-⎊ 𝖲𝖾𝗋𝗏𝖾𝗋 : render
-⎊ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href='https://www.mongodb.com'>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</a>
-⎊ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : v1.0.1 [BeTa]
-⎊ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/AM_FILMS'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>"""
+    ABOUT_TXT = """<b> ⌾ ᴍʏ ɴᴀᴍᴇ : {}
+⌾ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/kichuxd'>ᴋɪᴄʜᴜ-[🍃⃝🦋][℡✧ ]</a>
+⌾ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3
+⌾ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ ᴀꜱʏɴᴄɪᴏ 0.17.1
+⌾ ꜱᴇʀᴠᴇʀ : ʀᴇɴᴅᴇʀ 
+⌾ ᴅᴀᴛᴀʙᴀꜱᴇ : ᴍᴏɴɢᴏᴅʙ 
+⌾ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : ᴠ1.0.2[ʙᴇᴛᴀ]
+⌾ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me/AM_FILMS'>@ᴀᴍ_ꜰɪʟᴍꜱ</a> </b>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
 Special Thanks to EvaMaria Devs & Cloners for the codes 
