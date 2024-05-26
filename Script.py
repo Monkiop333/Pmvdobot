@@ -1,16 +1,16 @@
 class script(object):
-    START_TXT = """Hey sweetheart.... {} 💖
+    START_TXT = """<b> ʜᴇʏ ꜱᴡᴇᴇᴛʜᴇᴀʀᴛ.... {} 💖
 
 
-I'm File Searcher bot 🤫
+ɪ'ᴍ ꜰɪʟᴇ ꜱᴇᴀʀᴄʜᴇʀ ʙᴏᴛ 🤫
 
-Here you can Search files in Our Bot. Just Start Typing....
+ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ꜱᴇᴀʀᴄʜ ꜰɪʟᴇꜱ ɪɴ ᴏᴜʀ ʙᴏᴛ. ᴊᴜꜱᴛ ꜱᴛᴀʀᴛ ᴛʏᴘɪɴɢ....
 
-I can provide movies and series in both pm and group 🥱
+ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ ᴀɴᴅ ꜱᴇʀɪᴇꜱ ɪɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ 🥱
 
-Click on the button below to add me your group and enjoy new movies with your friends and family members ❤️
+ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴇɴᴊᴏʏ ɴᴇᴡ ᴍᴏᴠɪᴇꜱ ᴡɪᴛʜ ʏᴏᴜʀ ꜰʀɪᴇɴᴅꜱ ᴀɴᴅ ꜰᴀᴍɪʟʏ ᴍᴇᴍʙᴇʀꜱ ❤️
 
-<b>😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @CKFLICKS</b>"""
+𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 <a href='https://t.me/AM_FILMS>@ᴀᴍ_ꜰɪʟᴍꜱ</a> </b>"""
 
     HELP_TXT = """🙋🏻‍♂️   𝖧𝖾𝗅𝗅𝗈𝗈𝗈  {} ♥️
 
