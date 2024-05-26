@@ -32,13 +32,11 @@ class script(object):
 ⌾ ʙᴜɪʟᴅ ꜱᴛᴀᴛᴜꜱ : ᴠ1.0.2[ʙᴇᴛᴀ]
 ⌾ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me/AM_FILMS'>@ᴀᴍ_ꜰɪʟᴍꜱ</a> </b>"""
 
-    SOURCE_TXT = """<b>NOTE:</b>
-Special Thanks to EvaMaria Devs & Cloners for the codes 
-<b>DEV:</b>
+    SOURCE_TXT = """<b>⎙ ꜱᴏᴜʀᴄᴇ ⎙
+ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ ᴇᴠᴀᴍᴀʀɪᴀ ᴅᴇᴠꜱ ᴀɴᴅ ᴇᴠᴇʀʏᴏɴᴇ ɪɴ ᴛʜɪꜱ ᴊᴏᴜʀɴᴇʏ 
 
-- <a href=https://t.me/CKFLICKS>『CKFLICKS』</a>
-
-- Source - will be available soon""" #please don't change repo link give credit :)
+⌾ ᴏʀɪɢɪɴᴀʟ : <a href='https://github.com/ritheshrkrm/PiroAutoFilterBot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+⌾ ᴇᴅɪᴛᴇᴅ : <a href='https://github.com/Kichuprobotzzz/Anya-Forger'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> </b>""" #please don't change repo link give credit :)
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
