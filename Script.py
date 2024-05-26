@@ -173,16 +173,14 @@ Request Again"""
 
 ‼️𝗗𝗼𝗻𝘁 𝗮𝗱𝗱 𝘄𝗼𝗿𝗱𝘀 & 𝘀𝘆𝗺𝗯𝗼𝗹𝘀 𝗹𝗶𝗸𝗲 , . -  send link movie series 𝗲𝘁𝗰‼️"""
 
-    OWNER_INFO = """
-    <b>Disclaimer</b> ⚠️
+    OWNER_INFO = """<b>⎙ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ⎙
 
-<b>Media available over our bot is not owned by us and uploaded over the internet by someone else. This bot just index those files for easy search by the users. We respect all copyright laws,if you have any complaint about any content available in this bot please inform the creator of the bot we will remove it ASAP
-By @AM_FILMS</b>
+ᴍᴇᴅɪᴀ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏᴠᴇʀ ᴏᴜʀ ʙᴏᴛ ɪꜱ ɴᴏᴛ ᴏᴡɴᴇᴅ ʙʏ ᴜꜱ ᴀɴᴅ ᴜᴘʟᴏᴀᴅᴇᴅ ᴏᴠᴇʀ ᴛʜᴇ ɪɴᴛᴇʀɴᴇᴛ ʙʏ ꜱᴏᴍᴇᴏɴᴇ ᴇʟꜱᴇ. ᴛʜɪꜱ ʙᴏᴛ ᴊᴜꜱᴛ ɪɴᴅᴇx ᴛʜᴏꜱᴇ ꜰɪʟᴇꜱ ꜰᴏʀ ᴇᴀꜱʏ ꜱᴇᴀʀᴄʜ ʙʏ ᴛʜᴇ ᴜꜱᴇʀꜱ. ᴡᴇ ʀᴇꜱᴘᴇᴄᴛ ᴀʟʟ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀᴡꜱ,ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ᴄᴏᴍᴘʟᴀɪɴᴛ ᴀʙᴏᴜᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪꜱ ʙᴏᴛ ᴘʟᴇᴀꜱᴇ ɪɴꜰᴏʀᴍ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ ᴏꜰ ᴛʜᴇ ʙᴏᴛ ᴡᴇ ᴡɪʟʟ ʀᴇᴍᴏᴠᴇ ɪᴛ ᴀꜱᴀᴘ
+ʙʏ @ᴀᴍ_ꜰɪʟᴍꜱ
 
-○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href='https://t.me/CKFLICKS'>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
+⌾ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/kichuxd'>ᴋɪᴄʜᴜ-[🍃⃝🦋][℡✧ ]</a>
 
-○ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉 : <a href='https://t.me/AM_FILMS'>𝖳𝖺𝗉 𝖧𝖾𝗋𝖾</a>
-"""
+⌾ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ :  <a href='https://t.me/AM_FILMS'>@ᴀᴍ_ꜰɪʟᴍꜱ</a> </b>"""
 
     NORSLTS = """
 #NoResults 
