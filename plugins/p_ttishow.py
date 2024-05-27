@@ -175,7 +175,6 @@ async def get_ststs(bot, message):
     size = get_size(size)
     free = get_size(free)
     now = datetime.now()
-    delta = now - start_time
     uptime = get_readable_time(delta.seconds)
     ram = psutil.virtual_memory().percent
     cpu = psutil.cpu_percent()
