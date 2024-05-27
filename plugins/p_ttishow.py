@@ -1,3 +1,4 @@
+import psutil
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong, PeerIdInvalid
@@ -11,6 +12,7 @@ import asyncio
 from datetime import datetime
 from utils import get_size, temp, get_settings, get_readable_time
 import time
+
 
 
 
