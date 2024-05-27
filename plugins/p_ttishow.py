@@ -174,9 +174,7 @@ async def get_ststs(bot, message):
     free = 536870912 - size
     size = get_size(size)
     free = get_size(free)
-    ram = psutil.virtual_memory().percent
-    cpu = psutil.cpu_percent()
-    await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free, now, Uptime, delta, ram, cpu))
+    await rju.edit(script.STATUS_TXT.format(files, total_users, totl_chats, size, free,))
 
 @Client.on_message(filters.command('invite') & filters.user(ADMINS))
 async def gen_invite(bot, message):
