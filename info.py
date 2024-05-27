@@ -40,7 +40,7 @@ support_chat_id = environ.get('SUPPORT_CHAT_ID')
 reqst_channel = environ.get('REQST_CHANNEL_ID')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = -1001911092745
-NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
+NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
@@ -60,7 +60,7 @@ AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '📂 <em>File Name</em>: <code>CK|{file_name}</code> \n\n🖇 <em>File Size</em>: <code>{file_size}</code> \n\n❤️‍🔥 <b>Join @AM_FILMS</b>')
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", '')
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '⌾ ᴛɪᴛʟᴇ : {title} /n⌾ ɢᴇɴʀᴇꜱ : {genres} /n⌾ ʀᴀᴛɪɴɢ : {rating} /n⌾ ʟᴀɴɢᴜᴀɢᴇ : {languages} /n⌾ ʀᴜɴ ᴛɪᴍᴇ : {runtime} /n⌾ ʀᴇʟᴇᴀꜱᴇ ɪɴꜰᴏ : {year} /n⌾ ᴄᴇɴᴛᴜʀɪᴇꜱ : {countries} /n⌾ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/AM_FILMS'>@ᴀᴍ_ꜰɪʟᴍꜱ</a>  </b>')
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", '⌾ ᴛɪᴛʟᴇ : {title} /n⌾ ɢᴇɴʀᴇꜱ : {genres} /n⌾ ʀᴀᴛɪɴɢ : {rating} /n⌾ ʟᴀɴɢᴜᴀɢᴇ : {languages} /n⌾ ʀᴜɴ ᴛɪᴍᴇ : {runtime} /n⌾ ʀᴇʟᴇᴀꜱᴇ ɪɴꜰᴏ : {year} /n⌾ ᴄᴇɴᴛᴜʀɪᴇꜱ : {countries} /n/n⌾ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/AM_FILMS'>@ᴀᴍ_ꜰɪʟᴍꜱ</a>  </b>')
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
