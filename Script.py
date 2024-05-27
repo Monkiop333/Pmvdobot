@@ -209,12 +209,15 @@ Message <b>: {}</b>"""
 
 🖥 <i>Requests</i> - ||@raixpiro_bot|| """
 
-    IMDB_TEMPLATE_TXT = """
-🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> 
-🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10  
-🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} 
+    IMDB_TEMPLATE_TXT = """<b>⌾ ᴛɪᴛʟᴇ : {title}
+⌾ ɢᴇɴʀᴇꜱ : {genres}
+⌾ ʀᴀᴛɪɴɢ : {rating}
+⌾ ʟᴀɴɢᴜᴀɢᴇ : {languages}
+⌾ ʀᴜɴ ᴛɪᴍᴇ : {runtime}
+⌾ ʀᴇʟᴇᴀꜱᴇ ɪɴꜰᴏ : {year}
+⌾ ᴄᴇɴᴛᴜʀɪᴇꜱ : {countries}
 
-🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [[CKFLICKS]](t.me/ckflicks)"""
+⌾ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/AM_FILMS'>@ᴀᴍ_ꜰɪʟᴍꜱ</a>  </b>"""
     
     ALL_FILTERS = """
 <b>ʜᴇʏ {}, ᴛʜᴇꜱᴇ ᴀʀᴇ ᴛʜᴇ ᴛʜʀᴇᴇ ꜰɪʟᴛᴇʀ ᴏᴘᴛɪᴏɴꜱ ɪ ʜᴀᴠᴇ</b>"""
