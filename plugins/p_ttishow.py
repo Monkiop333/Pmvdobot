@@ -14,7 +14,7 @@ from pyrogram.errors import ChatAdminRequired
 import asyncio 
 from datetime import datetime
 from utils import get_size, temp, get_settings, get_readable_time
-
+botStartTime = time.time()
 
 
 
