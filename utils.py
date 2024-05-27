@@ -17,6 +17,8 @@ from typing import List
 from database.users_chats_db import db
 from bs4 import BeautifulSoup
 import requests
+import aiohttp
+from pyrogram.errors import ChatAdminRequired
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
