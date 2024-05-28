@@ -119,16 +119,16 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'✢ ɪɴꜰᴏ ✢', 'tips'),
+                InlineKeyboardButton(f'✢ ᴛɪᴘꜱ ✢', 'info')
             ]
             )
 
         else:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'✢ ɪɴꜰᴏ ✢', 'tips'),
+                InlineKeyboardButton(f'✢ ᴛɪᴘꜱ ✢', 'info')
             ]
             )
                 
@@ -139,16 +139,16 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'✢ ɪɴꜰᴏ ✢', 'tips'),
+                InlineKeyboardButton(f'✢ ᴛɪᴘꜱ ✢', 'info')
             ]
             )
 
         else:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'✢ ɪɴꜰᴏ ✢', 'tips'),
+                InlineKeyboardButton(f'✢ ᴛɪᴘꜱ ✢', 'info')
             ]
             )
     try:
@@ -244,7 +244,7 @@ async def next_page(bot, query):
         InlineKeyboardButton(f'🎬 {search} 🎬', 'rkbtn')
     ])
     btn.insert(2, [
-        InlineKeyboardButton("📤 𝖲𝖾𝗇𝖽 𝖠𝗅𝗅 𝖥𝗂𝗅𝖾𝗌 📤", callback_data=f"send_all#{req}#{key}#{pre}")
+        InlineKeyboardButton("⎙ ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ ⎙", callback_data=f"send_all#{req}#{key}#{pre}")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -311,20 +311,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     title = chat.title
                 except:
                     await query.message.edit_text("Make sure I'm present in your group!!", quote=True)
-                    return await query.answer('𝖯𝗂𝗋𝖺𝖼𝗒 𝗂𝗌 𝖢𝗋𝗂𝗆𝖾 !')
+                    return await query.answer('ᴘɪʀᴀᴄʏ ɪꜱ ᴄʀɪᴍᴇ !')
             else:
                 await query.message.edit_text(
                     "I'm not connected to any groups!\nCheck /connections or connect to any groups",
                     quote=True
                 )
-                return await query.answer('𝖯𝗂𝗋𝖺𝖼𝗒 𝗂𝗌 𝖢𝗋𝗂𝗆𝖾 !')
+                return await query.answer('ᴘɪʀᴀᴄʏ ɪꜱ ᴄʀɪᴍᴇ !')
 
         elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             grp_id = query.message.chat.id
             title = query.message.chat.title
 
         else:
-            return await query.answer('𝖯𝗂𝗋𝖺𝖼𝗒 𝗂𝗌 𝖢𝗋𝗂𝗆𝖾 !')
+            return await query.answer('ᴘɪʀᴀᴄʏ ɪꜱ ᴄʀɪᴍᴇ !')
 
         st = await client.get_chat_member(grp_id, userid)
         if (st.status == enums.ChatMemberStatus.OWNER) or (str(userid) in ADMINS):
@@ -399,7 +399,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         else:
             await query.message.edit_text('Disconnected from', parse_mode=enums.ParseMode.MARKDOWN)
-        return await query.answer('𝖯𝗂𝗋𝖺𝖼𝗒 𝗂𝗌 𝖢𝗋𝗂𝗆𝖾 !')
+        return await query.answer('ᴘɪʀᴀᴄʏ ɪꜱ ᴄʀɪᴍᴇ !')
     elif "disconnect" in query.data:
         await query.answer()
 
@@ -422,7 +422,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('𝖯𝗂𝗋𝖺𝖼𝗒 𝗂𝗌 𝖢𝗋𝗂𝗆𝖾 !')
+        return await query.answer('ᴘɪʀᴀᴄʏ ɪꜱ ᴄʀɪᴍᴇ !')
     elif "deletecb" in query.data:
         await query.answer()
 
@@ -440,7 +440,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f"Some error occurred!!",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
-        return await query.answer('𝖯𝗂𝗋𝖺𝖼𝗒 𝗂𝗌 𝖢𝗋𝗂𝗆𝖾 !')
+        return await query.answer('ᴘɪʀᴀᴄʏ ɪꜱ ᴄʀɪᴍᴇ !')
     elif query.data == "backcb":
         await query.answer()
 
@@ -451,7 +451,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_text(
                 "There are no active connections!! Connect to some groups first.",
             )
-            return await query.answer('𝖯𝗂𝗋𝖺𝖼𝗒 𝗂𝗌 𝖢𝗋𝗂𝗆𝖾 !')
+            return await query.answer('ᴘɪʀᴀᴄʏ ɪꜱ ᴄʀɪᴍᴇ !')
         buttons = []
         for groupid in groupids:
             try:
@@ -895,13 +895,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ➕', url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                 ],[
-                    InlineKeyboardButton('ᴏᴡɴᴇʀ', callback_data="owner_info"),
-                    InlineKeyboardButton('ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_CHAT}")
+                    InlineKeyboardButton('✢ ᴏᴡɴᴇʀ ✢', callback_data="owner_info"),
+                    InlineKeyboardButton('✢ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ✢', url=f"https://t.me/{SUPPORT_CHAT}")
                 ],[
-                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
+                    InlineKeyboardButton('✢ ʜᴇʟᴘ ✢', callback_data='help'),
+                    InlineKeyboardButton('✢ ᴀʙᴏᴜᴛ ✢', callback_data='about'),
                 ],[
-                    InlineKeyboardButton('ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('✢ ɪɴʟɪɴᴇ ꜱᴇᴀʀᴄʜ ✢', switch_inline_query_current_chat='')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1318,16 +1318,16 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'✢ ɪɴꜰᴏ ✢', 'tips'),
+                InlineKeyboardButton(f'✢ ᴛɪᴘꜱ ✢', 'info')
             ]
             )
 
         else:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'✢ ɪɴꜰᴏ ✢', 'tips'),
+                InlineKeyboardButton(f'✢ ᴛɪᴘꜱ ✢', 'info')
             ]
             )
                 
@@ -1338,16 +1338,16 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'✢ ɪɴꜰᴏ ✢', 'tips'),
+                InlineKeyboardButton(f'✢ ᴛɪᴘꜱ ✢', 'info')
             ]
             )
 
         else:
             btn.insert(0, 
             [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'📝 𝖳𝗂𝗉𝗌', 'info')
+                InlineKeyboardButton(f'✢ ɪɴꜰᴏ ✢', 'tips'),
+                InlineKeyboardButton(f'✢ ᴛɪᴘꜱ ✢', 'info')
             ])
             
                       
@@ -1355,7 +1355,7 @@ async def auto_filter(client, msg, spoll=False):
         InlineKeyboardButton(f'🎬 {search} 🎬', 'rkbtn')
     ])
     btn.insert(2, [
-        InlineKeyboardButton("📤 𝖲𝖾𝗇𝖽 𝖠𝗅𝗅 𝖥𝗂𝗅𝖾𝗌 📤", callback_data=f"send_all#{req}#{key}#{pre}")
+        InlineKeyboardButton("⎙ ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ ⎙", callback_data=f"send_all#{req}#{key}#{pre}")
     ])
     
     if offset != "":
@@ -1503,7 +1503,7 @@ async def advantage_spell_chok(client, msg):
         logger.exception(e)
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("🔎 𝖦𝗈𝗈𝗀𝗅𝖾", url=f"https://www.google.com/search?q={reqst_gle}")
+                   InlineKeyboardButton("✢ ɢᴏᴏɢʟᴇ ✢", url=f"https://www.google.com/search?q={reqst_gle}")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -1519,7 +1519,7 @@ async def advantage_spell_chok(client, msg):
     if not movies:
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("🔎 𝖦𝗈𝗈𝗀𝗅𝖾", url=f"https://www.google.com/search?q={reqst_gle}")
+                   InlineKeyboardButton("✢ ɢᴏᴏɢʟᴇ ✢", url=f"https://www.google.com/search?q={reqst_gle}")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
