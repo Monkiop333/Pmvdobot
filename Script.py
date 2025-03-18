@@ -28,7 +28,7 @@ class script(object):
 
 
     ABOUT_TXT = """<b> ⌾ ᴍʏ ɴᴀᴍᴇ : {}
-⌾ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/kichuxd'>ᴋɪᴄʜᴜ-[🍃⃝🦋][℡✧ ]</a>
+⌾ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/GUARDIANff'>..........</a>
 ⌾ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3
 ⌾ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ ᴀꜱʏɴᴄɪᴏ 0.17.1
 ⌾ ꜱᴇʀᴠᴇʀ : ʀᴇɴᴅᴇʀ 
@@ -39,8 +39,7 @@ class script(object):
     SOURCE_TXT = """<b>⎙ ꜱᴏᴜʀᴄᴇ ⎙
 ꜱᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋꜱ ᴛᴏ ᴇᴠᴀᴍᴀʀɪᴀ ᴅᴇᴠꜱ ᴀɴᴅ ᴇᴠᴇʀʏᴏɴᴇ ɪɴ ᴛʜɪꜱ ᴊᴏᴜʀɴᴇʏ 
 
-⌾ ᴏʀɪɢɪɴᴀʟ : <a href='https://github.com/ritheshrkrm/PiroAutoFilterBot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-⌾ ᴇᴅɪᴛᴇᴅ : <a href='https://github.com/Kichuprobotzzz/Anya-Forger'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> </b>""" #please don't change repo link give credit :)
+⌾ ᴏʀɪɢɪɴᴀʟ : <a href='https://github.com/ritheshrkrm/PiroAutoFilterBot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> </b>""" #please don't change repo link give credit :)
 
     MANUELFILTER_TXT = """<b>⎙ ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ ⎙
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
