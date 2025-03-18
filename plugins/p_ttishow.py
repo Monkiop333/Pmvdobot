@@ -46,7 +46,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton(' 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 ', url=f"https://t.me/{SUPPORT_CHAT}"),
-            InlineKeyboardButton(' 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ', url="https://t.me/ckflicks")
+            InlineKeyboardButton(' 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ', url="https://t.me/am_films")
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -67,7 +67,7 @@ async def save_group(bot, message):
                                                  reply_markup=InlineKeyboardMarkup(
         [[
             InlineKeyboardButton(' 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 ', url=f"https://t.me/{SUPPORT_CHAT}"),
-            InlineKeyboardButton(' 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ', url="https://t.me/ckflicks")
+            InlineKeyboardButton(' 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ', url="https://t.me/am_films")
         ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
@@ -93,7 +93,7 @@ async def leave_a_chat(bot, message):
     try:
         buttons = [[
             InlineKeyboardButton(' 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 ', url=f"https://t.me/{SUPPORT_CHAT}"),
-            InlineKeyboardButton(' 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ', url="https://t.me/ckflicks")
+            InlineKeyboardButton(' 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ', url="https://t.me/am_films")
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -133,7 +133,7 @@ async def disable_chat(bot, message):
     try:
         buttons = [[
             InlineKeyboardButton(' 𝖲𝖴𝖯𝖯𝖮𝖱𝖳  ', url=f"https://t.me/{SUPPORT_CHAT}"),
-            InlineKeyboardButton(' 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ', url="https://t.me/ckflicks")
+            InlineKeyboardButton(' 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ', url="https://t.me/am_films")
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
